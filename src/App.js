@@ -39,10 +39,6 @@ function App() {
     };
   }, []);
 
-  useEffect(() => {
-    console.log(currentUser);
-  }, [currentUser]);
-
   return (
     <div>
       <Header currentUser={currentUser} />
